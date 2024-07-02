@@ -6,18 +6,152 @@ ul, ol, li{list-style: none;}
 
 #wrap{
     width: 100%;
+    /* background-color:antiquewhite; */
 }
 
+/* 헤드 영역 */
 .header{
-    height: 200px;
+    width: 100%;
+    height: 150px;
+    background-color: beige;
+    /* position: relative; */
 }
 
-.header h1{
+.head_inner{
     margin: 0 auto;
-    line-height: 200px;
-    text-align: center;
-    background: url("../img/치과\ 로고.png") no-repeat;
-    background-size: 100px;
-    background-position: 700px 50px;
-    background-color: rgb(50, 124, 0) ;
+    width: 1170px;
+    height: 150px;
+    /* background-color: aqua; */
 }
+
+.logo{
+    width: 250px;
+    height: 100%;
+    margin-top: 25px;
+    float: left;
+}
+
+.logo a{}
+
+.logo a img{}
+
+.nav{}
+
+.menu{
+}
+
+.menu li{
+    float: right;
+}
+
+.menu li a{
+    font-size: 20px;
+    line-height: 150px;
+    margin-left: 20px;
+}
+
+/* 본문영역 */
+#contents{}
+
+.banner{
+
+}
+
+.banner img{
+    width: 100%;
+}
+
+.con1{}
+
+.doc{
+    display: block;
+    margin: 170px 0;
+}
+
+.con2{
+    width: 1170px;
+    height: 100%;
+    margin: 0   auto;
+    /* background-color: aqua; */
+}
+
+.box{}
+
+.box img{
+    margin: 50px 62px 0 62px;
+}
+
+.box h3{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.box_inner{
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+
+.box_inner>div{
+    width: 380px;
+    height: 550px;
+    float: left;
+    padding: 5px;
+}
+
+.box1{
+    background-color: #E9A511;
+}
+
+.box1 img{}
+
+.box1 h3{}
+
+.box1 p{}
+
+
+.box2{
+    background-color: #50A4AE;
+    margin: 0 15px;
+}
+
+.box2 img{}
+
+.box2 h3{}
+
+.box2 p{}
+
+
+
+.box3{
+    background-color: #623F70;
+}
+
+.box3 img{}
+
+.box3 h3{}
+
+.box3 p{}
+
+
+.con3{}
+
+.con3 img{
+    width: 100%;
+    margin: 170px 0;
+}
+
+.con3_inner{
+    width: 1170px;
+}
+
+.con3_inner p{
+
+}
+
+.con3_inner img{}
